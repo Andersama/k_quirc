@@ -20,8 +20,8 @@
     "frameworks": "*",
     "platforms": "*",
     "build": {
-      "srcDir": "src",
-      "includeDir": "include",
+      "srcDir": "combined",
+      "includeDir": "combined",
       "srcFilter": [
         "+<*.c>",
         "+<*.h>"
