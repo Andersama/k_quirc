@@ -1,0 +1,30 @@
+{
+    "name": "k_quirc",
+    "version": "1.0.0",
+    "description": "QR code decoder library",
+    "keywords": "qr, qrcode, decoder, computer-vision",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Andersama/k_quirc.git"
+    },
+    "authors": [
+      {
+        "name": "Andersama",
+        "email": "contact@alignofcode.com",
+        "url": "https://github.com/Andersama/k_quirc",
+        "maintainer": false
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/Andersama/k_quirc",
+    "frameworks": "*",
+    "platforms": "*",
+    "build": {
+      "srcDir": "src",
+      "includeDir": "include",
+      "srcFilter": [
+        "+<*.c>",
+        "+<*.h>"
+      ]
+    }
+}
